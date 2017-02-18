@@ -1,0 +1,61 @@
+/*----------------------------------------*\
+    #SECTION-FOOTER
+\*----------------------------------------*/
+
+.footer__left,
+.footer__right {
+    position: relative;
+}
+
+/*copyright*/
+.footer__copyright {
+    font-family:"fira_sanslight";
+    font-size: 14px;
+    color: #9c9c9c;
+    position: absolute;
+    top: 17px;
+}
+
+/*socials*/
+.socials__items {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.socials__item {
+    display: inline-block;
+    margin-right: 1px;
+}
+
+.socials__link {
+    display: block;
+    width: 31px;
+    height: 30px;
+}
+
+.socials__link_facebook {
+    background: url("../../img/icons/facebook.png") center center no-repeat;
+}
+
+.socials__link_vk {
+    background: url("../../img/icons/vk.png") center center no-repeat;
+}
+
+.socials_link_twitter {
+    background: url("../../img/icons/twitter.png") center center no-repeat;
+}
+
+.socials__link_facebook:hover {
+    background: url("../../img/icons/facebook-hover.png") center center no-repeat;
+}
+
+.socials__link_vk:hover {
+    background: url("../../img/icons/vk-hover.png") center center no-repeat;
+}
+
+.socials_link_twitter:hover {
+    background: url("../../img/icons/twitter-hover.png") center center no-repeat;
+}
+
+
